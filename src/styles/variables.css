@@ -1,0 +1,98 @@
+/**
+ * @file variables.css
+ * Clinical Design System Tokens & CSS Custom Properties
+ */
+
+:root {
+  /* Typography */
+  --font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 0.75rem;     /* 12px */
+  --font-size-sm: 0.84375rem;  /* 13.5px */
+  --font-size-base: 0.9375rem; /* 15px */
+  --font-size-md: 1.0625rem;   /* 17px */
+  --font-size-lg: 1.25rem;     /* 20px */
+  --font-size-xl: 1.5rem;      /* 24px */
+  --font-size-2xl: 1.875rem;   /* 30px */
+
+  /* Neutral Color Palette */
+  --color-bg-app: #f8fafc;
+  --color-bg-surface: #ffffff;
+  --color-bg-muted: #f1f5f9;
+  --color-bg-hover: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-border-subtle: #edf2f7;
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-light: #94a3b8;
+
+  /* Primary Brand & Accents */
+  --color-primary: #0d9488;          /* Medical Teal */
+  --color-primary-hover: #0f766e;
+  --color-primary-light: #f0fdfa;
+  --color-primary-border: #99f6e4;
+
+  --color-indigo: #4f46e5;
+  --color-indigo-light: #eef2ff;
+
+  /* Clinical Blood Pressure Tokens */
+  --color-systolic: #e11d48;         /* Rose / Crimson */
+  --color-systolic-light: #fff1f2;
+  --color-systolic-border: #fecdd3;
+
+  --color-diastolic: #7c3aed;        /* Violet / Purple */
+  --color-diastolic-light: #f5f3ff;
+  --color-diastolic-border: #ddd6fe;
+
+  /* Status Colors */
+  --color-success: #059669;
+  --color-success-bg: #ecfdf5;
+  --color-success-border: #a7f3d0;
+
+  --color-warning: #d97706;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fde68a;
+
+  --color-danger: #dc2626;
+  --color-danger-bg: #fef2f2;
+  --color-danger-border: #fca5a5;
+
+  --color-info: #2563eb;
+  --color-info-bg: #eff6ff;
+  --color-info-border: #bfdbfe;
+
+  /* Spacing */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+
+  /* Borders and Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 1px 3px 0 rgba(15, 23, 42, 0.04), 0 1px 2px -1px rgba(15, 23, 42, 0.04);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout dimensions */
+  --header-height: 72px;
+  --sidebar-width: 256px;
+  --sidebar-collapsed-width: 72px;
+}
+
